@@ -1,0 +1,320 @@
+@font-face {
+  font-family: Montserrat-Regular;
+  src : url(../fonts/montserrat/Montserrat-Regular.ttf);
+}
+body
+{
+  font-family: Montserrat-Regular !important;
+}
+
+ul.label-ui, ul.label-ui > li{
+	padding: 2px 0 !important;
+}
+ul.label-ui li > input[type=checkbox], ul.label-ui li > input[type=radio]{
+	display: none;
+}
+ul.label-ui li > input[type=checkbox]:checked , ul.label-ui li > input[type=radio]:checked + label{
+	box-shadow: inset 0px 0px 2px 0px #0be1a5;
+    color: #0be1a5;
+}
+ul.label-ui li > label{
+	padding: 5px;
+    display: flex;
+    flex: 1 100%;
+    width: 500px;
+    transition: all ease-in 300ms;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
+}
+ul.label-ui li > label:hover{
+    color: #0be1a5;
+    box-shadow: inset 0px 0px 2px 0px #0be1a5;
+}
+
+.wrong-li{
+	box-shadow: inset 0px 0px 2px 0px #F44336 !important;
+    color: #F44336 !important;
+}
+
+.correct-li{
+	box-shadow: inset 0px 0px 2px 0px #0be1a5 !important;
+    color: #0be1a5 !important;
+}
+.default-li{
+	color: #333 !important;
+    background-color: rgba(0,0,0,.075) !important;
+    border-color: #ccc;
+}
+
+.rwd-table {
+  margin: 1em 0;
+  min-width: 300px;
+  border-spacing: 0px 10px;
+  width: 100%;
+}
+
+.rwd-table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.rwd-table th {
+  display: none;
+  padding-left: 3%;
+}
+
+.rwd-table td {
+  display: block;
+  padding-left: 3%;
+}
+
+.rwd-table td:first-child {
+  padding-top: .5em;
+
+}
+
+.rwd-table td:last-child {
+  padding-bottom: .5em;
+}
+
+.rwd-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+
+@media (min-width: 722px) {
+  .rwd-table td:before {
+    display: none;
+  }
+}
+
+.rwd-table th,
+.rwd-table td {
+  text-align: left;
+}
+
+@media (min-width: 722px) {
+  .rwd-table th,
+  .rwd-table td {
+    display: table-cell;
+    padding: .75em .5em;
+  }
+  .rwd-table th:first-child,
+  .rwd-table td:first-child {
+  }
+  .rwd-table th:last-child,
+  .rwd-table td:last-child {
+  }
+}
+
+.rwd-table {
+  color: black;
+  overflow: hidden;
+}
+
+th,
+td {
+  margin: .5em 1em;
+}
+
+@media (max-width: 990px) {
+  th,
+  td {
+    background-color: white;
+  }
+  tr {
+    background-color: white;
+  }
+}
+
+th,
+td:before {
+      color: black;
+}
+
+
+.btn.btn-common
+  {
+    background-color:#0be1a5;
+     border-radius: 15px;
+    border: 1px solid transperant;
+        padding: 10px;
+        color: #555 !important;
+        min-width: 100px;
+  }
+  .btn:hover, .btn:focus {
+    border: 1px solid #999;
+     background-color:  #fff ;
+      color: #999 ;
+  }
+/*Radio Button and Radio Button in Square*/
+.radioUI, .squareRadioUI{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.radioUI label, .radioUI input[type=radio] ,
+.squareRadioUI label,
+.squareRadioUI input[type=checkbox]
+{
+  cursor:pointer;
+  padding: 0px 12px;
+}
+.radioUI input[type=radio],.squareRadioUI input[type=radio]{
+  width:1px;
+}
+.radioUI input[type=radio]::after{
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    position: absolute;
+    content: "";
+    margin: 4px 4px;
+    background: #ccc;
+}
+.radioUI input[type=radio]::before{
+    position: absolute;
+    content: "";
+    width: 13px;
+    height: 13px;
+    border: 3px solid #ccc;
+    border-radius: 100%;
+}
+.radioUI input[type="radio"]:checked + label{
+  color: #0be1a5;
+}
+.radioUI input[type="radio"]:not(:checked) + label{
+  color: hsla(0, 0%, 33%, 0.69);
+}
+.radioUI input[type="radio"]:checked:after{
+  background: #0be1a5;
+}
+.radioUI input[type="radio"]:checked:before 
+{
+  border: 2px solid #0be1a5;
+  
+}
+.radioUI input[type="radio"]:not(:checked):after{
+ /* background:white;*/
+}
+.radioUI input[type="radio"]:not(:checked):before 
+{
+  border: 2px solid #ccc;
+}
+
+.squareRadioUI [data-checkbox-color]:before,
+.squareRadioUI [data-checkbox-color]:after
+{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+}
+.squareRadioUI [data-checkbox-color = "#129d44"]:before{
+    border: 3px solid #129d44;
+}
+
+.squareRadioUI [data-checkbox-color = "#ea3834"]:before{
+    border: 3px solid #ea3834;
+}
+.squareRadioUI [data-checkbox-color = "#f39b39"]:before{
+    border: 3px solid #f39b39;
+}
+
+.squareRadioUI [data-checkbox-color = "#6499cd"]:before{
+    border: 3px solid #6499cd;
+}
+.squareRadioUI [data-checkbox-color = "#4cbb45"]:before{
+    border: 3px solid #4cbb45;
+}
+.squareRadioUI [data-checkbox-color = "#cc2222"]:before{
+    border: 3px solid #cc2222;
+}
+
+.squareRadioUI [data-checkbox-color = "#129d44"]:checked:after{
+  background:#129d44;
+  border: 3px solid #129d44;
+}
+.squareRadioUI [data-checkbox-color = "#ea3834"]:checked:after{
+  background:#ea3834;
+  border: 3px solid #ea3834;
+}
+.squareRadioUI [data-checkbox-color = "#f39b39"]:checked:after{
+  background:#f39b39;
+  border: 3px solid #f39b39;
+}
+.squareRadioUI [data-checkbox-color = "#6499cd"]:checked:after{
+  background:#6499cd;
+  border: 3px solid #6499cd;
+}
+.squareRadioUI [data-checkbox-color = "#4cbb45"]:checked:after{
+  background:#4cbb45;
+  border: 3px solid #4cbb45;
+}
+.squareRadioUI [data-checkbox-color = "#cc2222"]:checked:after{
+  background:#cc2222;
+  border: 3px solid #cc2222;
+}
+
+
+
+
+/* ****************************************** NEW CSS ***************************************************/
+
+.steplinks{
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-around;
+}
+
+.steplinks  a{
+color: #454545;
+font-size: 20px;
+text-decoration: underline;
+background-color: transparent;
+}
+ 
+@media(max-width: 425px){
+  .steplinks  a{
+font-size: 14px;
+}
+} 
+
+.step1 .active {
+color: #45aeae !important;
+text-decoration: none;
+}   
+
+.step2 .active {
+color: #e23a59 !important;
+text-decoration: none;
+} 
+
+.step3 .active {
+color: #3e7b97 !important;
+text-decoration: none;
+} 
+
+.step4 .active {
+color: #fcc82b !important;
+text-decoration: none;
+} 
+
+.step5 .active {
+color: #db4f9b !important;
+text-decoration: none;
+} 
+
+.step6 .active {
+color: #41a4f5 !important;
+text-decoration: none;
+} 
+
+
+/*.heading-info {
+    margin-left: 5px;
+    vertical-align: super;
+    cursor: pointer;
+    height: 20px;
+}*/

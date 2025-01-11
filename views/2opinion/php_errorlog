@@ -1,0 +1,86 @@
+[05-Nov-2016 07:43:45 CST6CDT] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct() expects parameter 2 to be DateTimeZone, string given' in /home/hansinfo/public_html/eheilung/controllers/utilities.php:15
+Stack trace:
+#0 /home/hansinfo/public_html/eheilung/controllers/utilities.php(15): DateTime->__construct('now', '')
+#1 /home/hansinfo/public_html/eheilung/views/2opinion/index.php(6): require_once('/home/hansinfo/...')
+#2 {main}
+  thrown in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 15
+[05-Nov-2016 07:45:16 CST6CDT] PHP Notice:  Undefined index: type in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 39
+[05-Nov-2016 07:45:16 CST6CDT] PHP Notice:  Undefined index: startForm in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 40
+[05-Nov-2016 07:45:16 CST6CDT] PHP Notice:  Undefined index: firstHalf in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 41
+[05-Nov-2016 07:45:16 CST6CDT] PHP Notice:  Undefined index: secondHalf in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 42
+[05-Nov-2016 07:45:16 CST6CDT] PHP Notice:  Undefined index: conclusion in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 43
+[05-Nov-2016 07:45:16 CST6CDT] PHP Notice:  Undefined index: caseID in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 75
+[05-Nov-2016 07:45:16 CST6CDT] PHP Notice:  Undefined index: caseuser in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 76
+[05-Nov-2016 07:45:16 CST6CDT] PHP Notice:  A session had already been started - ignoring session_start() in /home/hansinfo/public_html/eheilung/views/2opinion/2opinionCaseHistory.php on line 3
+[05-Nov-2016 07:45:16 CST6CDT] PHP Notice:  Undefined variable: totalPages in /home/hansinfo/public_html/eheilung/views/2opinion/2opinionCaseHistory.php on line 62
+[05-Nov-2016 07:46:01 CST6CDT] PHP Notice:  Undefined index: type in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 39
+[05-Nov-2016 07:46:01 CST6CDT] PHP Notice:  Undefined index: startForm in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 40
+[05-Nov-2016 07:46:01 CST6CDT] PHP Notice:  Undefined index: firstHalf in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 41
+[05-Nov-2016 07:46:01 CST6CDT] PHP Notice:  Undefined index: secondHalf in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 42
+[05-Nov-2016 07:46:01 CST6CDT] PHP Notice:  Undefined index: conclusion in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 43
+[05-Nov-2016 07:46:01 CST6CDT] PHP Notice:  Undefined index: caseID in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 75
+[05-Nov-2016 07:46:01 CST6CDT] PHP Notice:  Undefined index: caseuser in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 76
+[05-Nov-2016 07:46:01 CST6CDT] PHP Notice:  A session had already been started - ignoring session_start() in /home/hansinfo/public_html/eheilung/views/2opinion/2opinionCaseHistory.php on line 3
+[05-Nov-2016 07:46:01 CST6CDT] PHP Notice:  Undefined variable: totalPages in /home/hansinfo/public_html/eheilung/views/2opinion/2opinionCaseHistory.php on line 62
+[05-Nov-2016 07:46:03 CST6CDT] PHP Notice:  Undefined index: type in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 39
+[05-Nov-2016 07:46:03 CST6CDT] PHP Notice:  Undefined index: startForm in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 40
+[05-Nov-2016 07:46:03 CST6CDT] PHP Notice:  Undefined index: firstHalf in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 41
+[05-Nov-2016 07:46:03 CST6CDT] PHP Notice:  Undefined index: secondHalf in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 42
+[05-Nov-2016 07:46:03 CST6CDT] PHP Notice:  Undefined index: conclusion in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 43
+[05-Nov-2016 07:46:03 CST6CDT] PHP Notice:  Undefined index: caseID in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 75
+[05-Nov-2016 07:46:03 CST6CDT] PHP Notice:  Undefined index: caseuser in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 76
+[05-Nov-2016 07:46:03 CST6CDT] PHP Notice:  A session had already been started - ignoring session_start() in /home/hansinfo/public_html/eheilung/views/2opinion/2opinionCaseHistory.php on line 3
+[05-Nov-2016 07:46:03 CST6CDT] PHP Notice:  Undefined variable: totalPages in /home/hansinfo/public_html/eheilung/views/2opinion/2opinionCaseHistory.php on line 62
+[05-Nov-2016 07:46:04 CST6CDT] PHP Notice:  Undefined index: type in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 39
+[05-Nov-2016 07:46:04 CST6CDT] PHP Notice:  Undefined index: startForm in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 40
+[05-Nov-2016 07:46:04 CST6CDT] PHP Notice:  Undefined index: firstHalf in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 41
+[05-Nov-2016 07:46:04 CST6CDT] PHP Notice:  Undefined index: secondHalf in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 42
+[05-Nov-2016 07:46:04 CST6CDT] PHP Notice:  Undefined index: conclusion in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 43
+[05-Nov-2016 07:46:04 CST6CDT] PHP Notice:  Undefined index: caseID in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 75
+[05-Nov-2016 07:46:04 CST6CDT] PHP Notice:  Undefined index: caseuser in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 76
+[05-Nov-2016 07:46:04 CST6CDT] PHP Notice:  A session had already been started - ignoring session_start() in /home/hansinfo/public_html/eheilung/views/2opinion/2opinionCaseHistory.php on line 3
+[05-Nov-2016 07:46:04 CST6CDT] PHP Notice:  Undefined variable: totalPages in /home/hansinfo/public_html/eheilung/views/2opinion/2opinionCaseHistory.php on line 62
+[07-Nov-2016 06:10:25 CST6CDT] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/hansinfo/public_html/eheilung/views/2opinion/conclusion.php on line 262
+[16-Nov-2016 06:22:52 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/hansinfo/public_html/eheilung/views/2opinion/conclusion.php on line 596
+[16-Nov-2016 07:03:24 CST6CDT] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/hansinfo/public_html/eheilung/views/2opinion/conclusion.php on line 668
+[16-Nov-2016 07:22:54 CST6CDT] PHP Fatal error:  require_once(): Failed opening required '../controllers/config.php' (include_path='.:/usr/local/php56/pear') in /home/hansinfo/public_html/eheilung/views/2opinion/conclusion1.php on line 8
+[16-Nov-2016 07:50:36 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/hansinfo/public_html/eheilung/views/2opinion/conclusion.php on line 459
+[16-Nov-2016 08:24:14 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/hansinfo/public_html/eheilung/views/2opinion/conclusion.php on line 859
+[19-Nov-2016 00:56:10 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/hansinfo/public_html/eheilung/views/2opinion/conclusion.php on line 460
+[19-Nov-2016 01:14:55 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/hansinfo/public_html/eheilung/views/2opinion/conclusion.php on line 460
+[19-Nov-2016 07:28:03 CST6CDT] PHP Parse error:  syntax error, unexpected '?>' in /home/hansinfo/public_html/eheilung/views/2opinion/conclusion.php on line 891
+[21-Nov-2016 05:25:28 CST6CDT] PHP Parse error:  syntax error, unexpected ''1. Chosen remedy may be wrong' (T_ENCAPSED_AND_WHITESPACE) in /home/hansinfo/public_html/eheilung/views/2opinion/conclusion.php on line 464
+[21-Nov-2016 05:40:02 CST6CDT] PHP Parse error:  syntax error, unexpected ''1. Chosen remedy may be wrong' (T_ENCAPSED_AND_WHITESPACE) in /home/hansinfo/public_html/eheilung/views/2opinion/conclusion.php on line 464
+[02-Dec-2016 15:01:26 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/hansinfo/public_html/eheilung/controllers/notification.php on line 5
+[02-Dec-2016 15:01:26 Asia/Kolkata] PHP Warning:  require_once(../controllers/config.php): failed to open stream: No such file or directory in /home/hansinfo/public_html/eheilung/controllers/notification.php on line 8
+[02-Dec-2016 15:01:26 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required '../controllers/config.php' (include_path='.:/usr/local/php56/pear') in /home/hansinfo/public_html/eheilung/controllers/notification.php on line 8
+[02-Dec-2016 15:03:30 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/hansinfo/public_html/eheilung/controllers/notification.php on line 5
+[02-Dec-2016 15:03:30 Asia/Kolkata] PHP Warning:  require_once(../controllers/config.php): failed to open stream: No such file or directory in /home/hansinfo/public_html/eheilung/controllers/notification.php on line 8
+[02-Dec-2016 15:03:30 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required '../controllers/config.php' (include_path='.:/usr/local/php56/pear') in /home/hansinfo/public_html/eheilung/controllers/notification.php on line 8
+[02-Dec-2016 15:03:39 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/hansinfo/public_html/eheilung/controllers/notification.php on line 5
+[02-Dec-2016 15:03:39 Asia/Kolkata] PHP Notice:  Undefined index: type in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 294
+[02-Dec-2016 15:03:39 Asia/Kolkata] PHP Notice:  Undefined index: startForm in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 295
+[02-Dec-2016 15:03:39 Asia/Kolkata] PHP Notice:  Undefined index: firstHalf in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 296
+[02-Dec-2016 15:03:39 Asia/Kolkata] PHP Notice:  Undefined index: secondHalf in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 297
+[02-Dec-2016 15:03:39 Asia/Kolkata] PHP Notice:  Undefined index: conclusion in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 298
+[02-Dec-2016 15:03:39 Asia/Kolkata] PHP Notice:  Undefined index: caseID in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 330
+[02-Dec-2016 15:03:39 Asia/Kolkata] PHP Notice:  Undefined index: caseuser in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 331
+[02-Dec-2016 15:03:39 Asia/Kolkata] PHP Notice:  Undefined index: type in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 3749
+[02-Dec-2016 15:03:39 Asia/Kolkata] PHP Notice:  Undefined index: link in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 3750
+[02-Dec-2016 15:03:39 Asia/Kolkata] PHP Notice:  Undefined index: patient_email in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 3751
+[02-Dec-2016 15:03:39 Asia/Kolkata] PHP Notice:  Undefined index: doctor_email in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 3752
+[02-Dec-2016 15:05:30 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/hansinfo/public_html/eheilung/controllers/notification.php on line 5
+[02-Dec-2016 15:05:30 Asia/Kolkata] PHP Notice:  Undefined index: type in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 294
+[02-Dec-2016 15:05:30 Asia/Kolkata] PHP Notice:  Undefined index: startForm in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 295
+[02-Dec-2016 15:05:30 Asia/Kolkata] PHP Notice:  Undefined index: firstHalf in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 296
+[02-Dec-2016 15:05:30 Asia/Kolkata] PHP Notice:  Undefined index: secondHalf in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 297
+[02-Dec-2016 15:05:30 Asia/Kolkata] PHP Notice:  Undefined index: conclusion in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 298
+[02-Dec-2016 15:05:30 Asia/Kolkata] PHP Notice:  Undefined index: caseID in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 330
+[02-Dec-2016 15:05:30 Asia/Kolkata] PHP Notice:  Undefined index: caseuser in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 331
+[02-Dec-2016 15:05:30 Asia/Kolkata] PHP Notice:  Undefined index: type in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 3749
+[02-Dec-2016 15:05:30 Asia/Kolkata] PHP Notice:  Undefined index: link in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 3750
+[02-Dec-2016 15:05:30 Asia/Kolkata] PHP Notice:  Undefined index: patient_email in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 3751
+[02-Dec-2016 15:05:30 Asia/Kolkata] PHP Notice:  Undefined index: doctor_email in /home/hansinfo/public_html/eheilung/controllers/utilities.php on line 3752
+[02-Dec-2016 15:05:30 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/hansinfo/public_html/eheilung/views/2opinion/2opinionCaseHistory.php on line 3
+[02-Dec-2016 03:52:12 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/hansinfo/public_html/eheilung/views/2opinion/conclusion.php on line 464
+[07-Dec-2016 07:48:32 CST6CDT] PHP Parse error:  syntax error, unexpected ';' in /home/hansinfo/public_html/eheilung/views/2opinion/start.php on line 104

@@ -1,0 +1,2018 @@
+  @font-face {
+  font-family: Montserrat-Regular;
+  src : url(../fonts/montserrat/Montserrat-Regular.ttf);
+}
+
+
+ @font-face {
+  font-family: Montserrat-Bold;
+  src : url(../fonts/montserrat/Montserrat-Bold.otf);
+}
+  .terms{
+    margin: 40px 0 40px 0;
+  }
+
+    input[type="checkbox"] {
+        display: none;
+      }
+      label {
+        cursor: pointer;
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 21px;
+        font-size: 16px;
+        word-spacing: 2px;
+        font-weight: normal!important;
+        color: #444;
+      }
+      input[type="checkbox"] + label:before {
+        border: 1px solid #555;
+        content: "\2713";
+        display: inline-block;
+        font: 25px/1em sans-serif;
+        height: 25px;
+        margin:  0 1.0em 0 0;
+        padding: 0;
+        vertical-align: top;
+        width: 25px;
+        border-radius: 3px;
+        color: #ffffff;
+        margin-right: 10px;
+      }
+      input[type="checkbox"] + label.event1:before {
+        margin: 5px 0.5em 0 0 !important;
+      }
+      input[type="checkbox"] + label.event2:before {
+        margin: 5px 1.5em 0 0 !important;
+      }
+      input[type="checkbox"]:checked + label:before {
+        background: #0dae04;
+        color: #ffffff;
+        content: "\2713";
+        text-align: center;
+        border: transparent;
+        width: 25px;
+        padding: 1px;
+      }    
+
+
+  .graybtn{
+      border-radius: 7px;
+      text-align: center;
+      padding: 15px;
+      outline: none;
+      border: none;
+      width: 44%;
+      font-size: 22px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      word-spacing: 2px;
+      color:#fff;
+      background: #c7d2d8; 
+      background: -webkit-linear-gradient(#e4ecf1, #c7d2d8); 
+      background: -o-linear-gradient(#e4ecf1, #c7d2d8); 
+      background: -moz-linear-gradient(#e4ecf1, #c7d2d8);
+      background: linear-gradient(#e4ecf1, #c7d2d8); 
+      font-family: Montserrat-Regular;
+    }
+    .graybtnclick{
+      border-radius: 7px;
+      text-align: center;
+      padding: 15px;
+      outline: none;
+      border: none;
+      width: 44%;
+      font-size: 22px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      word-spacing: 2px;
+      color:#fff;
+      background: #f97c89;
+      background: -webkit-linear-gradient(#f97c89, #f5cc84);
+      background: -o-linear-gradient(#f97c89, #f5cc84);
+      background: -moz-linear-gradient(#f97c89, #f5cc84); 
+      background: linear-gradient(#f97c89, #f5cc84);
+      font-family: Montserrat-Regular;
+    }
+
+    @media(max-width: 1024px){
+      .graybtn , .graybtnclick{
+        width: 120px;
+      }
+    }
+
+    .doctor {
+      text-align: right;
+    }
+
+    .patient {
+      text-align: left;
+    }
+
+    h4{
+      text-align: center;
+      margin-top: 0;
+    }
+
+
+
+
+    .signupbtn{
+      background-color: #0dae04;
+      text-align: center;
+      color: #fff;
+      padding: 15px;
+      width: 100%;
+      border:none;
+      /*outline: none;*/
+      border-radius:  5px;
+      /*font-weight: bold;*/
+      font-size: 25px;
+      letter-spacing: 1px;
+    }
+
+
+    .Loginbtn{
+      border : 2px solid #0dae04;
+      background-color: transparent;
+      text-align: center;
+      padding: 15px 35px 15px 35px;
+      /*outline: none;*/
+      letter-spacing: 1px;
+      font-size: 25px;
+      border-radius: 5px;
+      color: #0dae04;
+      float: right;
+    }
+
+
+  .successful-signup h1 {
+    text-align: center;
+  }
+
+  .successful-signup h1 img{
+    width: 180px;
+    object-fit: contain;
+    margin-bottom: 40px;
+  }
+
+ .successful-signup h2{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0;
+    color: #454545;
+    font-family: Montserrat-Regular;
+  }
+  .successful-signup h2 img {
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+    margin-left: 10px;
+  }
+  .successful-signup h4{
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 50px;
+      color: #454545;
+      font-family: Montserrat-Regular;
+    }
+    
+
+
+    .successful-signup .gotomailbtn{
+      border : 2px solid #0dae04;
+      background-color: transparent;
+      text-align: center;
+      padding: 15px 0 15px 0;
+      outline: none;
+      letter-spacing: 1px;
+      font-size: 25px;
+      border-radius: 5px;
+      color: #0dae04;
+      width: 100%;
+      margin-bottom: 50px;
+      font-family: Montserrat-Regular;
+    }
+
+    .failed-signup h2{
+      text-align: center;
+      margin-bottom: 50px;
+      margin-top: 0;
+      color: #454545;
+      font-family: Montserrat-Regular;
+    }
+     .failed-signup h4{
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 50px;
+      color: #454545;
+      font-family: Montserrat-Regular;
+    }
+
+
+
+    .getstarted{
+      border : 2px solid #0dae04;
+      background-color: transparent;
+      text-align: center;
+      padding: 15px 0 15px 0;
+      outline: none;
+      letter-spacing: 1px;
+      font-size: 25px;
+      border-radius: 5px;
+      color: #0dae04;
+      width: 100%;
+      margin-bottom: 50px;
+      font-family: Montserrat-Regular;
+      
+    }
+
+
+
+    .resendbtn{
+      border : 2px solid #0dae04;
+      background-color: transparent;
+      text-align: center;
+      padding: 15px 0 15px 0;
+      outline: none;
+      letter-spacing: 1px;
+      font-size: 25px;
+      border-radius: 5px;
+      color: #0dae04;
+      width: 100%;
+      margin-bottom: 50px;
+      font-family: Montserrat-Regular;
+      
+    }
+
+    @media(max-width: 425px){
+      .resendbtn{
+        font-size: 15px;
+      }
+    }
+
+    .loginmodal h2{
+      font-family: Montserrat-Regular;
+    }
+
+    .chngpswdmodal h2{
+      font-family: Montserrat-Regular;
+    }
+
+    .chngpswdmodal h4{
+      color: #454545;
+      font-family: Montserrat-Regular;
+      text-align: left;
+    }
+
+    .feedbackmodal h2{
+      font-family: Montserrat-Regular;
+    }
+
+    .feedbackmodal h4{
+      color: #454545;
+      font-family: Montserrat-Regular;
+      text-align: left;
+    }
+
+    .forgotmodel h2{
+      color: #454545;
+      font-family: Montserrat-Regular;
+      text-align: left;
+      margin-top: 40px;
+    }
+
+    .forgotmodel h4{
+      color: #454545;
+      font-family: Montserrat-Regular;
+      text-align: left;
+    }
+
+    
+    .forgotmodel .sendbtn{
+      background-color: #0dae04;
+      text-align: center;
+      color: #fff;
+      padding: 15px;
+      width: 100%;
+      border:none;
+      outline: none;
+      border-radius:  5px;
+      font-size: 25px;
+      letter-spacing: 1px;
+      margin: 20px 0 40px 0;
+    }
+
+     /* CSS FOR GENERAL INFO */
+    .genralinfo{
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .genralinfo h4{
+      font-family: Montserrat-Regular;
+      color: #454545;
+      text-align: left;
+      line-height: 35px;
+      font-size: 21px;
+      letter-spacing: 1px;
+    }
+
+    .info-left-links a{
+      font-family: Montserrat-Regular;
+      color: #454545;
+      text-align: left;
+      line-height: 35px;
+      font-size: 21px;
+      letter-spacing: 1px;
+      display: block;
+      text-decoration: none;
+    }
+
+    .info-left-links .active a{
+      color: #ffb600 !important;
+      background-color: #fff !important;
+    }
+
+    .info-left-links .view-profile-btndiv{
+      margin-top: 20px;
+    }
+
+    .info-left-links .view-profile-btndiv input[type=button]{
+      color: #fff;
+      background-color: #0dae04;
+      text-align: center;
+      outline: none;
+      border-radius: 5px;
+      border: none;
+      padding: 10px;
+      width: 180px;
+      font-family: Montserrat-Regular;
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
+
+
+    .gerneral-form .label-div{
+      width: 20%;
+      text-align: right;
+      float: left;
+      height: 50px;
+      color: #454545;
+      font-family: Montserrat-Regular;
+      padding-top: 10px;
+      margin-bottom: 40px;
+    }
+
+     .gerneral-form .label-divarea{
+      width: 20%;
+      text-align: right;
+      float: left;
+      height: 100px;
+      font-family: Montserrat-Regular;
+      color: #454545;
+      padding-top: 10px;
+      margin-bottom: 15px;
+    }
+
+
+    .gerneral-form .field-input{
+      width: 80%;
+      display: inline-block;
+      float: right;
+      height: 50px;
+      margin-bottom: 40px;
+
+    }
+
+     .gerneral-form .field-inputtxt{
+      width: 48.8%;
+      display: inline-block;
+      float: left;
+      height: 50px;
+      margin-left: 1.2%;
+      margin-bottom: 40px;
+     }
+
+     .gerneral-form .field-inputdrop{
+      width: 30%;
+      display: inline-block;
+      float: right;
+      height: 50px;
+      margin-bottom: 40px;
+     }
+
+     .gerneral-form .field-inputarea{
+      width: 80%;
+      display: inline-block;
+      float: right;
+      height: 100px;
+      color: #454545;
+      font-family: Montserrat-Regular;
+      margin-bottom: 15px;
+    }
+
+    .gerneral-form .field-input select{
+       border-color: #9b9b9b;
+    width: 96%;
+    height: 50px;
+    border-radius: 0px;
+    margin-right: 0px;
+    margin-left: 4%;
+    background-color: white;
+    color: #000;
+    padding-left: 10px;
+    font-family: Montserrat-Regular;
+    }
+    .gerneral-form .field-inputdrop select{
+         border-color: #9b9b9b;
+    width: 100%;
+    height: 50px;
+    border-radius: 0px;
+    margin-right: 0px;
+    margin-left: 0;
+    background-color: white;
+    color: #000;
+    padding-left: 10px;
+    font-family: Montserrat-Regular;
+    border-left: none;
+    outline: none;
+    }
+
+
+    .gerneral-form .field-inputtxt input[type=text],.gerneral-form .field-input input[type=text],.gerneral-form .field-input input[type=email],.gerneral-form .field-input input[type=file],.gerneral-form .field-input input[type=file],.gerneral-form .field-input input[type=date]{
+       border-color: #9b9b9b !important;
+    width: 96%;
+    height: 50px;
+    border-radius: 0px;
+    margin-right: 0px;
+    margin-left: 4%;
+    background-color: white;
+    color: #000;
+    padding-left: 10px;
+    font-family: Montserrat-Regular;
+    }
+
+
+
+   .gerneral-form .field-input textarea,.gerneral-form .field-inputarea textarea{
+     border-color: #9b9b9b;
+    width: 96%;
+    height: 80px;
+    border-radius: 0px;
+    margin-right: 0px;
+    margin-left: 4%;
+    background-color: white;
+    color: #000;
+    padding-left: 10px;
+     resize: none;
+     font-family: Montserrat-Regular;
+   }
+
+   .gerneral-form .field-inputarea .textfeedback{
+    color: #808080;
+    font-size: 14px;
+    text-align: right;
+     float: right;
+    margin-top: -22px;
+    margin-right: 5px;
+font-family: Montserrat-Regular;
+   }
+
+   
+
+   .general_save{
+    background-color: #0dae04;
+    text-align: center;
+    color: #fff;
+    border:none;
+    /*outline: none;*/
+    border-radius: 5px;
+    padding: 15px;
+    font-family: Montserrat-Regular;
+    letter-spacing: 1px;
+    width: 160px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 100px;
+   }
+
+
+   .general_skip{
+    background-color: #ffb600;
+    text-align: center;
+    color: #fff;
+    border:none;
+    /*outline: none;*/
+    border-radius: 5px;
+    padding: 15px;
+    font-family: Montserrat-Regular;
+    letter-spacing: 1px;
+    width: 160px;
+    margin-left: 20px;
+    margin-top: 100px;
+   }
+
+   @media(max-width: 400px){
+    .general_save,.general_skip{
+    width: 80% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+   }
+ }
+
+
+
+
+ /*LOGIN HEADER */
+.login-header ul{
+  text-align: right;
+  margin-top: 10px;
+}
+
+ .login-header ul li{
+
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 15px;
+  text-align: right;
+  color: #454545;
+  font-family: Montserrat-Regular;
+ }
+  .login-header ul li i{
+    color: #454545 !important;
+  }
+
+ .login-header ul li .user-img img{
+  width: 60px;
+  height: 60px;
+  border-radius: 500;
+  object-fit: cover;
+ }
+
+ .dropdown-menu li ul li h4{
+  color: #454545;
+   font-family: Montserrat-Regular;
+   /*font-size: 16px;*/
+   font-size: 13px;
+   text-align: left;
+   margin-left: 80px;
+   word-break : break-all;
+
+ }
+
+ .dropdown-menu li ul li h6{
+  color: #808080;
+   font-family: Montserrat-Regular;
+   font-size: 12px;
+   text-align: left;
+   margin-left: 80px;
+   margin-bottom: 10px;
+   
+ }
+
+ .dropdown-menu li ul li h3{
+  color: #454545;
+   font-family: Montserrat-Regular;
+   /*font-size: 18px;*/
+   font-size: 14px;
+   text-align: left;
+   margin-left: 120px;
+   margin-top: 0px;
+
+ }
+
+ .dropdown-menu li ul li h5{
+  color: #808080;
+   font-family: Montserrat-Regular;
+   font-size: 12px;
+   text-align: left;
+   margin-left: 120px;
+   margin-bottom: 10px;
+ /*  word-break: break-all;*/
+    width: 168px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}   
+ 
+
+ .dropdown-menu li ul li h2{
+  color: #454545;
+   font-family: Montserrat-Regular;
+   font-size: 13px;
+   text-align: left;
+   margin-left: 20px;
+   margin-bottom: 10px;
+   font-size: 18px;
+   cursor: pointer;
+   line-height: 20px;
+   margin-top: 15px;
+ }
+
+ .dropdown-menu li ul li .viewpro{
+  margin-left: 32px;
+  background-color: #0dae04;
+  color: #fff;
+  border-radius: 5px;
+  border:none;
+  outline:none;
+  padding:10px;
+  font-family: Montserrat-Regular;
+  text-align: center;
+
+   }
+
+
+.dropdown .dropdown-menu{
+  /*left: -130px !important;*/
+}
+  .dropdown-menu li ul li{
+    /*border-bottom: 1px solid #808080;*/
+ /*   margin-left: -15px;
+    margin-right: -15px;*/
+  }
+
+  .navbar-nav>li>a .user-pic{
+    margin-top: -10px;
+    margin-right: 20px;
+  }
+
+  .navbar-nav>li>a {
+    color: #808080;
+   font-family: Montserrat-Regular;
+   height: 80px;
+  }
+
+  .navbar-nav>li>a:hover {
+    color :#454545;
+  }
+
+   .navbar-nav>li>a i{
+    color: #454545;
+    font-size: 24px;
+    margin-left: 10px;
+    /* padding-top: 7px; */
+    vertical-align: sub;
+   }
+
+   .nav>li>a:focus, .nav>li>a:hover{
+    background-color: transparent !important;
+   }
+
+
+
+
+
+
+
+
+
+
+   /* CSS FOR MANAGE PATIENT */
+
+   .managepatient{
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .managepatient h2{
+      font-family: Montserrat-Regular;
+      color: #454545;
+      text-align: left;
+      line-height: 35px;
+      font-size: 24px;
+     /*font-size: 20px;*/
+      letter-spacing: 1px;
+    }
+
+    .managepatient h2 .heading-info{
+      margin-left: 5px;
+      vertical-align: super;
+      cursor:pointer;
+      height: 20px;
+    }
+
+
+    .managepatient-filter h4{
+      font-family: Montserrat-Regular;
+      color: #454545;
+      text-align: left;
+      line-height: 35px;
+      font-size: 16px;
+      letter-spacing: 1px;
+          text-align: right;
+    
+    border-radius: 10px;
+    }
+
+    .managepatient-filter h4 i{
+      color: #454545;
+      font-size: 20px;
+      margin-left: 5px;
+      margin-top: 0px;
+    }
+
+    .managepatient-filter input[type=button]{
+    color: #fff;
+    background-color: #0dae04;
+    text-align: center;
+    /*outline: none;*/
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    width: 180px;
+    font-family: Montserrat-Regular;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  .managepatient-filter .dropdown-menu {
+    left: -94px !important;
+    border:none;
+  }
+
+
+  .patient-info {
+    min-height: 300px;
+    box-shadow:  0 0 10px rgb(246, 246, 246);
+    margin-top: 20px;
+  }
+
+  .noleft-right{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .patient-info h6{
+  color:#fff;text-align: 
+  center;border-radius: 10px;
+  padding: 5px;
+  word-spacing: 1px;
+  font-family: Montserrat-Regular;
+  font-size: 16px;"
+  }
+  .patient-info .status{
+    text-align: center;
+  }
+  .patient-info .status label{
+  color:#fff;text-align: 
+  center;border-radius: 10px;
+  padding: 5px 12px;
+  word-spacing: 1px;
+  font-family: Montserrat-Regular;
+  font-size: 15px;
+  min-width: 100px;
+  text-align: center;
+  margin-top: 20px;
+  }
+
+  .patient-info .vip{
+    background-color: #0daf04;
+  }
+  .patient-info .unimportant{
+    background-color: #50afff;
+  }
+
+  .patient-info .emergency{
+    background-color: #ff0000;
+  }
+
+  .patient-info .discuss{
+    background-color: #ffb600;
+  }
+
+  .patient-info .improving{
+    background-color: #9be564;
+  }
+  .patient-info .notimproving{
+    background-color: #b00000;
+  }
+  /*.patient-info .notimportant{
+    background-color: #b71616;
+  }*/
+
+  .patient-info h1{
+    font-family: Montserrat-Regular;
+    color: #010101;
+    text-align: left;
+    line-height: 35px;
+    /*font-size: 24px;*/
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .patient-info h2{
+    font-family: Montserrat-Regular;
+    color: #454545;
+    text-align: left;
+    line-height: 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    word-break: break-all;
+  }
+
+   .patient-info h3{
+    font-family: Montserrat-Regular;
+    color: #0075c4;
+    text-align: left;
+    line-height: 25px !important;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .patient-info h3 span{
+    font-family: Montserrat-Regular;
+    color: #454545;
+    text-align: left;
+    line-height: 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .patient-info .casehistory-btn{
+    background-color: #ffd151;
+    text-align: center;
+    border-radius: 5px;
+    border:none;
+    /*outline: none;*/
+    color: #fff;
+    /*padding: 15px;*/
+    padding: 10px;
+    font-family: Montserrat-Regular;
+    letter-spacing: 1px;
+    display: block;
+    font-size: 18px;
+    float: right;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .patient-info .startcase-btn{
+    background-color: #9be564;
+    text-align: center;
+    border-radius: 5px;
+    border:none;
+    /*outline: none;*/
+    color: #fff;
+    padding: 10px;
+    font-family: Montserrat-Regular;
+    letter-spacing: 1px;
+    display: block;
+    font-size: 18px;
+    float: right;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .patient-info .privatenotes-btn{
+    background-color: #06d6a0;
+    text-align: center;
+    border-radius: 5px;
+    border:none;
+    /*outline: none;*/
+    color: #fff;
+    padding: 10px;
+    font-family: Montserrat-Regular;
+    letter-spacing: 1px;
+    display: block;
+    font-size: 18px;
+    float: right;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+   .patient-info .actionimg img{
+    float: right;
+    margin: 20px 0 20px 15px;
+    cursor: pointer;
+   }
+
+
+   .pagination{
+    margin-top: 60px;
+   }
+   .pagination a{
+    color: #454545;
+    font-family: Montserrat-Regular;
+    font-size: 24px;
+    background-color: #fff;
+    border-radius: 50px;
+    border:1px solid #cbcbcb;
+    padding: 15px 23px;
+
+   }
+   .pagination a i{
+    color: #454545;
+    font-size: 24px;
+   }
+
+   .pagination .active{
+    background-color: #9be564 !important;
+    color: #fff !important;
+   }
+
+
+   /*dropdown*/
+
+   .dropdown-menu li a label{
+    color: #454545;
+    font-family: Montserrat-Regular;
+   }
+
+
+   .dropdown-menu input[type="checkbox"] {
+        display: none;
+      }
+   .dropdown-menu label {
+        cursor: pointer;
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 21px;
+        font-size: 16px;
+        word-spacing: 2px;
+        font-weight: normal!important;
+        color: #444;
+      }
+     .dropdown-menu input[type="checkbox"] + label:before {
+        border: 1px solid #555;
+        content: "\2713";
+        display: inline-block;
+        font: 25px/1em sans-serif;
+        height: 25px;
+        margin:  0 1.0em 0 0;
+        padding: 0;
+        vertical-align: top;
+        width: 25px;
+        border-radius: 3px;
+        color: #ffffff;
+      }
+     .dropdown-menu input[type="checkbox"] + label.event1:before {
+        margin: 5px 0.5em 0 0 !important;
+      }
+    .dropdown-menu  input[type="checkbox"] + label.event2:before {
+        margin: 5px 1.5em 0 0 !important;
+      }
+     .dropdown-menu input[type="checkbox"]:checked + label:before {
+        background: #0dae04;
+        color: #ffffff;
+        content: "\2713";
+        text-align: center;
+        border: transparent;
+        width: 25px;
+        padding: 1px;
+      }
+
+
+  .open>h4 {
+    
+    /*background-color: #e1e1e1;*/
+    color: #848484;
+}
+
+
+
+
+/* style for modals*/
+
+.modalstyle h2{
+  color: #454545;
+  font-family: Montserrat-Regular;
+  font size: 22px;
+}
+
+
+.modalstyle h4{
+  color: #454545;
+  font-family: Montserrat-Regular;
+  font size: 18px;
+}
+
+.mod-footer-btn{
+  color: #ffb600;
+  font-family: Montserrat-Regular;
+  font-size: 20px;
+  background-color: transparent;
+  /*outline: none;*/
+  border:none;
+  margin-right: 20px;
+}
+
+
+
+
+.modalstyle ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.modalstyle ul li{
+  color: #454545;
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 70px;
+}
+
+.modalstyle ul li input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+
+.modalstyle ul li label{
+  display: block;
+  position: relative;
+  font-weight: 300;
+  font-size: 1.35em;
+  padding: 25px 25px 25px 80px;
+  margin: 10px auto;
+  height: 30px;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+}
+
+
+.modalstyle ul li .check{
+  display: block;
+  position: absolute;
+  /*border: 3px solid #AAAAAA;*/
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  top: 30px;
+  left: 20px;
+  z-index: 5;
+  transition: border .25s linear;
+  -webkit-transition: border .25s linear;
+}
+
+.modalstyle ul li .vip{
+  border: 3px solid #0dae04 ;
+}
+
+.modalstyle ul li .emergency{
+  border: 3px solid #ff0000 ;
+}
+.modalstyle ul li .todiscuss{
+  border: 3px solid #ffb600 ;
+}
+.modalstyle ul li .unimportant{
+  border: 3px solid #55b2ff ;
+}
+.modalstyle ul li .improving{
+  border: 3px solid #afea83 ;
+}
+.modalstyle ul li .notimproving{
+  border: 3px solid #b71616 ;
+}
+
+
+
+
+
+.modalstyle ul li .check::before {
+  display: block;
+  position: absolute;
+  content: '';
+  border-radius: 100%;
+  height: 12px;
+  width: 12px;
+  top: 6px;
+  left: 6px;
+  margin: auto;
+  transition: background 0.25s linear;
+  -webkit-transition: background 0.25s linear;
+}
+
+/*.modalstyle input[type=radio]:checked ~ .check {
+  border: 3px solid #0DFF92;
+}
+
+.modalstyle input[type=radio]:checked ~ .check::before{
+  background: #0DFF92;
+}*/
+
+.modalstyle input[type=radio]:checked ~ .vip {
+  border: 3px solid #0dae04;
+}
+
+.modalstyle input[type=radio]:checked ~ .vip::before{
+  background: #0dae04;
+}
+
+.modalstyle input[type=radio]:checked ~ .emergency {
+  border: 3px solid #ff0000;
+}
+
+.modalstyle input[type=radio]:checked ~ .emergency::before{
+  background: #ff0000;
+}
+
+
+.modalstyle input[type=radio]:checked ~ .todiscuss {
+  border: 3px solid #ffb600;
+}
+
+.modalstyle input[type=radio]:checked ~ .todiscuss::before{
+  background: #ffb600;
+}
+
+.modalstyle input[type=radio]:checked ~ .unimportant {
+  border: 3px solid #55b2ff;
+}
+
+.modalstyle input[type=radio]:checked ~ .unimportant::before{
+  background: #55b2ff;
+}
+
+.modalstyle input[type=radio]:checked ~ .improving {
+  border: 3px solid #afea83;
+}
+
+.modalstyle input[type=radio]:checked ~ .improving::before{
+  background: #afea83;
+}
+
+.modalstyle input[type=radio]:checked ~ .notimproving {
+  border: 3px solid #b71616;
+}
+
+.modalstyle input[type=radio]:checked ~ .notimproving::before{
+  background: #b71616;
+}
+
+
+
+.addpatient h4{
+  text-align: right;
+  margin-bottom: 15px;
+  color: #454545;
+  font-family: Montserrat-Regular;
+}
+
+
+.addpatient input[type=text],.addpatient input[type=number],.addpatient input[type=date],.addpatient select,.addpatient textarea,.addpatient input[type=email]{
+  margin-bottom: 15px;
+  color: #000;
+  font-family: Montserrat-Regular;
+}
+
+.addpatient input[type=text],.addpatient input[type=number],.addpatient input[type=date],.addpatient select,.addpatient input[type=email] {
+  height: 50px;
+}
+
+.addpatient textarea{
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+
+.conditionsterms h4{
+  color: #454545;
+  font-family: Montserrat-Regular;
+  font size: 18px;
+  text-align: left;
+
+}
+
+.req{
+  color: red;
+  padding-left: 5px;
+}
+
+
+
+@media(max-width: 600px) {
+  .patient-info .casehistory-btn,.patient-info .startcase-btn,.patient-info .privatenotes-btn
+  {
+   margin: 0 auto !important;
+   float: none !important;
+   margin-bottom: 15px !important;
+   margin-top: 15px !important;
+  }
+}
+
+@media(max-width: 963px) {
+  .patient-info .casehistory-btn,.patient-info .startcase-btn,.patient-info .privatenotes-btn
+  {
+   float: left;
+   margin-right: 20px;
+   margin-bottom: 15px;
+   margin-top: 15px;
+  }
+}
+
+
+@media(max-width: 450px) {
+  .pagination a{
+    font-size: 14px;
+    padding: 10px 15px;
+    display:inherit;
+  }
+  .pagination a i{
+    font-size: 16px;
+  }
+}
+
+
+@media(max-width: 767px){
+   .navbar-nav .open .dropdown-menu{
+   position: absolute !important;
+   right: initial;
+   left:auto !important;
+   z-index: 1000 !important;
+   background-color: #fff !important;
+   box-shadow: 0 6px 12px rgba(0,0,0,.175) !important;
+  }
+
+  .nav>li {
+    display: inline-block !important;
+  }
+
+  .navbar-nav .open .drop1{
+    margin-left: 0;
+  }
+
+  .navbar-nav .open .drop2{
+    margin-left: -65px;
+  }
+  .navbar-nav .open .drop3{
+    margin-left: -130px;
+  }
+}
+
+/* CSS Added on 27 April*/
+
+
+.patient-info .patient-img img{
+  width: 147px;
+  height: 145px;
+  object-fit: cover;
+}
+
+.profile-menu  img{
+  height: 68px;
+  width: 68px;
+  object-fit: cover;
+}
+
+.profile-menu a img{
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+
+
+.infobar{
+  background-color: #ffeab0;
+  height: 75px;
+}
+.infobar h4{
+  text-align: center;
+  color: #454545;
+  font-family: Montserrat-Regular;
+  padding-top: 25px;
+}
+@media(max-width: 505px){
+  .infobar h4{
+    padding-top: 16px;
+  }
+}
+
+
+.followup{
+  background-color: #ffbebe;
+  height: 75px;
+}
+.followup h4{
+  text-align: center;
+  color: #454545;
+  font-family: Montserrat-Regular;
+  padding-top: 25px;
+}
+@media(max-width: 505px){
+  .followup h4{
+    padding-top: 16px;
+  }
+}
+
+
+
+.nopatients {
+    min-height: 450px;
+    box-shadow: 0 0 10px rgb(246, 246, 246);
+    margin-top: 20px;
+    padding: 40px 0 40px 0;
+}
+
+.nopatients h1 {
+    font-family: Montserrat-Regular;
+    color: #010101;
+    text-align: center;
+    line-height: 35px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin : 20px;
+}
+
+.nopatients h4 {
+    font-family: Montserrat-Regular;
+    color: #454545;
+    text-align: center;
+    line-height: 35px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin : 20px ;
+}
+
+
+.nopatients h3 {
+    font-family: Montserrat-Regular;
+    color: #ffb600;
+    text-align: left;
+    line-height: 35px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin : 10px 0 30px 15px; ;
+}
+
+.nopatients h5 {
+    font-family: Montserrat-Regular;
+    color: #454545;
+    text-align: left;
+    line-height: 35px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin : 10px 0 0 15px; ;
+}
+
+
+.Notifications-div h4{
+    font-family: Montserrat-Regular;
+    color: #454545;
+    text-align: left;
+    line-height: 35px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.Notifications-div img{
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+}
+.Notifications-div h5{
+  color: #454545;
+  font-family: Montserrat-Regular;
+  margin:0;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.Notifications-div h6{
+  color: #808080;
+  font-family: Montserrat-Regular;
+  margin-left: 15px;
+}
+
+
+.Notifications-div ul{
+  list-style-type: none;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 0;
+  box-shadow: 0 0px 12px rgba(0,0,0,.175);
+
+}
+
+.Notifications-div  li{
+  min-height: 140px;
+  padding-top: 30px;
+  border-bottom: 1px solid #afafaf;
+}
+
+
+    
+
+
+.Notifications-div ul li:last-child {
+  border-bottom: none;
+}    
+
+@media(max-width: 425px){
+  .Notifications-div img{
+  width: 68px;
+  height: 68px;
+  object-fit: cover;
+}
+
+.Notifications-div  li{
+  min-height: 100px;
+  padding-top: 10px;
+  border-bottom: 1px solid #afafaf;
+}
+
+.Notifications-div h5{
+  color: #454545;
+  font-family: Montserrat-Regular;
+  margin:0;
+  margin-top: 0px;
+  margin-left: 15px;
+}
+}
+
+
+/*CSS FOR DOCTOR PROFILE*/
+
+.my-profile {
+    background-image: url("../images/profile-bg.png");  
+    background-size: cover;
+    min-height: 400px;
+    box-shadow: 0 0px 12px rgba(0,0,0,.175);
+}
+
+.my-profile .doctorprofile {
+  text-align: center;
+}
+.my-profile .doctorprofile img{
+  width: 165px;
+  height: 165px;
+  object-fit: cover;
+  margin-top: 15px;
+
+}
+
+.my-profile .doctorprofile .edit-profile{
+  font-family : "gotham-medium";
+  background-color: #255c99;
+  border-radius: 8px;
+  padding : 10px;
+  border:none;
+  /*outline: none;*/
+  margin-top :25px;
+  color: #fff;
+  text-align: center;
+  width: 200px;
+  margin-bottom: 15px;
+}
+.my-profile .doctorinfo{
+  margin-bottom: 100px;
+}
+
+.my-profile .doctorinfo h1 {
+  color: #010101;
+  font-family: Montserrat-Regular;
+  margin-bottom: 25px;
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.my-profile .doctorinfo h2 {
+  color: #324276;
+  font-family: Montserrat-Regular;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.my-profile .doctorinfo h2 span {
+  color: #454545;
+  font-family: Montserrat-Regular;
+}
+.my-profile .doctorinfo h2 img{
+  margin-right: 15px;
+}
+
+
+.infobox{
+padding: 0;
+margin-top: -80px;
+}
+
+.infobox .personal-info{
+  width: 65%;
+  min-height: 230px;
+  float: left;
+  background-color: #fff;
+  box-shadow: 0 0px 12px rgba(0,0,0,.175);
+
+}
+
+
+.infobox .contact-info{
+  width: 33%;
+  min-height: 230px;
+  float: left;
+  background-color: #fff;
+  margin-left: 2%;
+  box-shadow: 0 0px 12px rgba(0,0,0,.175);
+}
+
+.infobox .personal-info h2{
+  color: #010101;
+  font-family: Montserrat-Regular;
+  margin-left: 35px;
+
+}
+
+.infobox .personal-info h3{
+  color: #0075c4;
+  font-family: Montserrat-Regular;
+  margin-left: 35px;
+
+}
+
+.infobox .personal-info h3 span{
+ color: #454545;
+}
+
+
+.infobox .contact-info h2{
+  color: #010101;
+  font-family: Montserrat-Regular;
+  margin-left: 35px;
+
+}
+
+.infobox .contact-info h3{
+  color: #0075c4;
+  font-family: Montserrat-Regular;
+  margin-left: 35px;
+  display: flex;
+  word-break: break-all;
+}
+
+.infobox .contact-info h3 img{
+  margin-right: 20px;
+
+}
+
+.infobox .contact-info h3 span{
+ color: #454545;
+}
+
+@media(max-width: 900px){
+  .infobox .personal-info{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.infobox .contact-info{
+  width: 100%;
+  margin-left: 0;
+  padding-bottom: 20px;
+}
+
+.infobox .personal-info h2{
+  margin-left: 0;
+}
+.infobox .contact-info h2{
+  margin-left: 0;
+}
+
+.infobox .personal-info h3{
+  margin-left: 0;
+}
+
+.infobox .contact-info h3{
+  margin-left: 0;
+}
+}
+
+
+
+
+.profilepage h4{
+  text-align: center;
+  color: #454545;
+  font-family: Montserrat-Regular;
+}
+
+.profilepage h4 img {
+  margin-right: 20px;
+}
+
+
+/*dashboard CSS*/
+
+#chartdiv {
+    width: 100%;
+    height: 100%;
+}
+
+.charts h2{
+text-align: left;
+  color: #454545;
+  font-family: Montserrat-Regular;
+}
+
+.charts .open-btn{
+  color :#fff;
+  text-align: center;
+  background-color: #fc9f5b;
+  outline: none;
+  border:none;
+  width: 180px;
+  font-size: 16px;
+  padding: 10px;
+  float: right;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 8px;
+}
+
+
+.charts h4{
+  text-align: left;
+  color: #454545;
+  font-family: Montserrat-Regular;
+  margin-top:20px;
+}
+
+.charts .infobox{
+  margin-top: 50px;
+}
+.charts .infobox h4{
+  margin-bottom: 25px;
+}
+
+.charts h4 span{
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+}
+
+.charts .infobox h4{
+  margin-bottom: 25px;
+}
+
+
+
+.patient-history h4{
+  text-align: left;
+  color: #454545;
+  font-family: Montserrat-Regular;
+}
+
+.patient-history table tr {
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px #f5f5f5;
+
+}
+
+.patient-history table tr th{
+  color: #0075c4;
+  font-family: Montserrat-Regular;
+  text-align: left;
+  border: none;
+  padding: 15px 20px 15px 20px;
+}
+
+.patient-history table tr td{
+  color: #454545;
+  font-family: Montserrat-Regular;
+  text-align: left;
+  border: none;
+  padding: 25px 20px 25px 20px;
+  vertical-align: middle;
+}
+.patient-history table tr td img{
+  margin-right: 15px;
+  }
+
+.patient-history table tr:last-th{
+  text-align: center;
+  vertical-align: top;
+}
+
+
+.patient-history .pagiate {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+
+.patient-history .pagiate a ,.patient-history .pagiate label{
+  color: #454545;
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  margin: 20px;
+  font-weight: 500;
+}
+
+.patient-history .pagiate i{
+ color: #454545;
+  font-size: 18px;
+ 
+}
+
+.patient-history .pagiate a:active {
+  color: #969696;
+}
+
+/* Scrollbar for header menu*/
+
+.scrollbar
+{
+
+  float: left;
+  height: 300px;
+  /*width: 65px;*/
+  background: #fff;
+  overflow-y: scroll;
+  /*margin-bottom: 25px;*/
+}
+
+
+
+.style-1::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.style-1::-webkit-scrollbar
+{
+  width: 6px;
+  background-color: #fff;
+}
+.style-1::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+ -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #837c82;
+}
+
+
+.searchtxt {
+    border:none;
+    display:inline-block;
+    border-bottom : 1px solid #000;
+}
+
+.searchtxt input {
+    background-color:transparent;
+    border:0;
+    outline:none;
+    border:none;
+   
+}
+
+.searchtxt button{
+  cursor :pointer;
+  background-color:transparent;
+    border:0;
+    outline:none;
+}
+
+
+.searchinput {
+    border:none;
+    display:inline-block;
+    border-bottom : 1px solid #454545;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.searchinput  input
+{
+    background-color:transparent;
+    border:0;
+    outline:none;
+    color: #454545;
+  font-family: Montserrat-Regular;
+}
+
+.searchinput  button {
+    background-color:transparent;
+    border:0;
+    outline:none;
+}
+
+.form-group {
+    margin-bottom: 39px;
+    padding: 20px;
+    }
+
+
+.input-group-addon{
+  border: 1px solid #9b9b9b !important;
+  background-color: #fff !important;
+  border-left: none !important;
+  outline: none !important;
+}    
+
+.date input[type="text"]{
+  border-right: none !important;
+} 
+
+
+
+/* CSS FOR REMEDIES */
+
+
+.remedies h4{
+  text-align: left;
+  color: #454545;
+  font-family: Montserrat-Regular;
+}
+.remedies table{
+  border-collapse: collapse;
+}
+.remedies table tr {
+  margin-bottom: 50px;
+ box-shadow: 0 0 10px #d6d2d2;
+
+}
+
+.remedies table tr th{
+  color: #0075c4;
+  font-family: Montserrat-Regular;
+  text-align: center;
+  border: none;
+  padding: 15px 20px 15px 20px;
+}
+
+.remedies table tr td{
+  color: #454545;
+  font-family: Montserrat-Regular;
+  text-align: center;
+  border: none;
+  padding: 25px 20px 25px 20px;
+  vertical-align: middle;
+}
+.remedies table tr td img{
+  margin-right: 15px;
+  }
+
+
+
+.remedies .pagiate {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+
+.remedies .pagiate a ,.remedies .pagiate label{
+  color: #454545;
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  margin: 20px;
+  font-weight: 500;
+}
+
+.remedies .pagiate i{
+ color: #454545;
+  font-size: 18px;
+ 
+}
+
+.remedies .pagiate a:active {
+  color: #969696;
+}
+
+.remedies .prescribe-btn{
+  background-color: #06d6a0;
+  color: #fff;
+  text-align: center;border-radius: 8px;
+  border:none;
+  outline: none;
+  padding: 10px 20px;
+  font-family: Montserrat-Regular;
+}
+
+
+.remedies-tablinks{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.remedies-tablinks h4{
+  display:inline-block;
+  margin:25px;
+  cursor: pointer;
+  color: #5a5a5a;
+  font-family: Montserrat-Bold;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.closecase h4{
+color: #454545;
+font-family: Montserrat-Regular;
+text-align: left;
+margin: 20px 0 20px 0;
+}
+
+.closecase select{
+color: #000;
+font-family: Montserrat-Regular;
+height: 40px;
+}
+
+.do-and-donts{
+  background-color: #fff;
+  padding: 20px 10px 30px 10px;
+}
+.do-and-donts p{
+  font-family: Montserrat-Regular;
+  color: #454545;
+  font-size: 18px;
+  text-align: left;
+}
+
+
+.remedy-modal h4{
+  text-align: left;
+  margin-left: 20px;
+}
+
+
+.remedy-modal .righttxt h4{
+  text-align: right;
+}
+
+.remedy-modal select{
+  border-color: #9b9b9b;
+    width: 96%;
+    height: 50px;
+    border-radius: 0px;
+    margin-right: 0px;
+    margin-left: 4%;
+    background-color: white;
+    color: #000;
+    padding-left: 10px;
+    font-family: Montserrat-Regular;
+}
+
+.remedy-modal textarea{
+  resize : none;
+  border-color: #9b9b9b;
+    width: 96%;
+    height: 80px;
+    border-radius: 0px;
+    margin-right: 0px;
+    margin-left: 4%;
+    background-color: white;
+    color: #000;
+    padding-left: 10px;
+    font-family: Montserrat-Regular;
+}
+  
+.top20 {
+  margin-top: 20px;
+}  
+
+.get-remedies h5{
+  color: #ffb600;
+  font-family: Montserrat-Regular;
+  margin-left: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.get-remedies{
+  color: #454545;
+  font-family: Montserrat-Regular;
+}
+.get-remediesbtn{
+  text-align: center;
+  margin-top: 70px;
+}
+
+.get-remediesbtn .save-btn{
+  background-color: #0dae04;
+  color: #fff;
+  font-family: Montserrat-Regular;
+  text-align: center;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  margin: 0 auto;
+  min-width: 180px;
+  letter-spacing: 1px;
+
+}
+
+
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('../../assets/images/ring.gif') 50% 50% no-repeat rgb(249,249,249);
+}

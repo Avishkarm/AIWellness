@@ -1,0 +1,27 @@
+.timer {
+
+}
+.timer svg {
+
+}
+.timer .timRemain {
+    text-align:center;
+    position: absolute;
+    line-height: 125px;
+    width: 100%;
+}
+
+.circle_animation {
+  stroke-dasharray: 440;
+  /* this value is the pixel circumference of the circle */
+  stroke-dashoffset: 440;
+  transition: all 1s linear;
+}
+
+svg {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+
+

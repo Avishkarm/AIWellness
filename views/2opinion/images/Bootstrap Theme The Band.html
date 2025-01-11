@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style type="text/css">.gm-err-container{height:100%;width:100%;display:table;background-color:#e0e0e0;position:relative;left:0;top:0}.gm-err-content{border-radius:1px;padding-top:0;padding-left:10%;padding-right:10%;position:static;vertical-align:middle;display:table-cell}.gm-err-content a{color:#4285f4}.gm-err-icon{text-align:center}.gm-err-title{margin:5px;margin-bottom:20px;color:#616161;font-family:Roboto,Arial,sans-serif;text-align:center;font-size:24px}.gm-err-message{margin:5px;color:#757575;font-family:Roboto,Arial,sans-serif;text-align:center;font-size:12px}.gm-err-autocomplete{padding-left:20px;background-repeat:no-repeat;background-size:15px 15px}</style>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme The Band</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Bootstrap%20Theme%20The%20Band_files/bootstrap.css">
+  <link href="Bootstrap%20Theme%20The%20Band_files/css.css" rel="stylesheet" type="text/css">
+  <link href="Bootstrap%20Theme%20The%20Band_files/css_002.css" rel="stylesheet" type="text/css">
+  <script style="" src="Bootstrap%20Theme%20The%20Band_files/jquery_002.js"></script>
+  <script src="Bootstrap%20Theme%20The%20Band_files/bootstrap.js"></script>
+  <style>
+  body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+  }
+  h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;
+      font-size: 20px;
+      color: #111;
+  }
+  
+  .container {
+      padding: 32px 20px;
+  }
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+  }
+  .carousel-inner img {
+      -webkit-filter: grayscale(90%);
+      filter: grayscale(90%); /* make all photos black and white */
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  .bg-1 {
+      
+      color: #bdbdbd;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail p {
+      margin-top: 15px;
+      color: #555;
+  }
+  .btn {
+      padding: 10px 20px;
+      background-color: #19c794;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+      border-radius: 25px;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+  .modal-header, h4, .close {
+      background-color: #333;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+  }
+  .nav-tabs li a {
+      color: #777;
+  }
+  #googleMap {
+      width: 100%;
+      height: 400px;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+  }
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color:white;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+  footer {
+      background-color: #f5f5f5;
+      color: #2d2d30;
+      padding: 32px;
+  }
+  footer a {
+      color: #f5f5f5;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }
+  .form-control {
+      border-radius: 0;
+  }
+  textarea {
+      resize: none;
+  }
+  #rig {
+    
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+    background-color:#000;
+}
+#rig li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width:25%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+        
+/* The wrapper for each item */
+.rig-cell {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+        
+/* If have the image layer */
+.rig-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#rig li:hover .rig-img {
+    transform:scale(1.05);
+}
+        
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #3DC0F1 url(img/link.png) no-repeat center 20%;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+}
+#rig li:hover .rig-overlay {
+    opacity:0.8;
+}
+.row mbr-gallery-row no-gutter
+{
+  height: 100px;
+    width: 500px;
+}
+
+/* If have captions */
+.rig-text {
+    display:block;
+    padding:0 30px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Oswald', sans-serif;
+    font-weight:normal!important;
+    top:40%;
+    color:white;
+    opacity:0;
+    filter:alpha(opacity=0);/*For older IE*/
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+#rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+@media (max-width: 9000px) {
+    #rig li {
+        width:25%;
+    }
+}
+
+@media (max-width: 700px) {
+    #rig li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #rig li {
+        width:50%;
+    }
+}
+.why-us-section .fa {
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    font-size: 48px;
+    border: 2px solid #FFF;
+}
+.circle {
+    border-radius: 100%;
+    color: black;
+}
+.fa {
+    
+    font-family: FontAwesome;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    font-size-adjust: none;
+    font-stretch: normal;
+    -moz-font-feature-settings: normal;
+    -moz-font-language-override: normal;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+.animation, .animation a {
+    transition: all 0.5s ease 0s;
+}
+.footer .social, .footer .copyright {
+    margin: 10px 0px;
+}
+.social {
+   
+    overflow: hidden;
+    padding-left: 22px;
+    display: inline-block;
+}
+.social > li {
+    float: left;
+    margin: 0px 4px;
+}
+.social > li > a {
+    background-color: #FF9C00;
+    color: #1A2B51;
+    height: 35px;
+    width: 35px;
+    font-size: 18px;
+    line-height: 36px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+}
+a {
+    font-family: 'Montserrat',sans-serif;
+    color: #FF9C00;
+    transition: all 350ms ease 0s;
+}
+a {
+    color: #337AB7;
+    text-decoration: none;
+}
+
+ul {
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+.box{
+        
+        display: none;
+        margin-top: 20px;
+       color:black;
+    }
+
+    .searchbox
+    {
+        
+        padding: 20px;
+        background-color: white;
+        margin-top: 40%;
+        margin-left: -19%;
+        padding-left:50px;
+        
+        max-width: 100%;
+        width:62%;
+        padding-top: 10px;
+        padding-bottom: 30px;
+            
+    }
+    h1
+    {
+        color: lightgreen;
+
+    }
+    #btn
+    {
+
+        width: 25%;
+        background-color: lightgreen;
+        color: white;
+
+
+    }
+    select
+    {
+        border-color: lightgreen;
+         width: 65%;
+         color: black;
+    }
+    .social
+    {
+        background-color: white;
+
+    }
+    .social ul
+    {
+
+        size: 20%;
+    }
+    .list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.navbar-brand
+{
+
+ width:200px ; 
+ height:100px;
+}
+
+.nav
+{
+  color:#fff;
+}
+
+  </style>
+<script src="Bootstrap%20Theme%20The%20Band_files/common.js" charset="UTF-8" type="text/javascript"></script><script src="Bootstrap%20Theme%20The%20Band_files/util.js" charset="UTF-8" type="text/javascript"></script><script src="Bootstrap%20Theme%20The%20Band_files/stats.js" charset="UTF-8" type="text/javascript"></script><script src="Bootstrap%20Theme%20The%20Band_files/AuthenticationService.Authenticate" charset="UTF-8" type="text/javascript"></script></head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <img class="navbar-brand" alt="Image" src="Bootstrap%20Theme%20The%20Band_files/logo.png">
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#myPage">What's eHellung</a></li>
+        <li><a href="#band">For patients</a></li>
+        <li><a href="#tour">For Doctors</a></li>
+        <li><a href="#contact">For Student</a></li>
+        <li><a href="#contact">Knowledge Center</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="Bootstrap%20Theme%20The%20Band_files/3.jpg" alt="New York" height="700" width="1200">
+        <div class="carousel-caption">
+          
+     <div class="searchbox">
+
+        <h1>Homeopathy<strong> Can Cure</strong> </h1>
+        <div>
+            <select>
+                <option selected="selected">Condition name goes here</option>
+                <option value="1">Red</option>
+                <option value="2">Green</option>
+                <option value="3">Blue</option>
+            </select>
+
+            <button id="btn">Tell  me  more</button>
+        </div>
+
+        <div class="red box">You have selected <strong>red option</strong> so i am here</div>
+        <div class="green box">You have selected <strong>green option</strong> so i am here</div>
+        <div class="blue box">You have selected <strong>blue option</strong> so i am here</div>
+
+    </div>
+        </div>
+      </div>
+
+     
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!-- Container (The Band Section) -->
+<section id="service-block-main">
+
+      <!-- Container Starts -->
+      <div class="container">
+
+       <center> <h1 style="visibility: visible;-webkit-animation-delay: .2s; -moz-animation-delay: .2s; animation-delay: .2s;" class="section-title wow fadeIn animated animated" data-wow-delay=".2s">
+          What We Do
+        </h1></center>
+        <div class="row">
+          <div class="col-sm-6 col-md-4 text-center">
+          <!-- Service-Block-1 Item Starts -->
+            <div style="visibility: visible;-webkit-animation-delay: .5s; -moz-animation-delay: .5s; animation-delay: .5s;" class="service-item wow fadeInUpQuick animated animated" data-wow-delay=".5s">
+              
+                 <div align="center">
+                 <p><img class="img-center img-responsive circle" alt="Image" src="Bootstrap%20Theme%20The%20Band_files/tablet.png"></p>
+              </div>
+          
+              <h2>
+                Get Medicine 
+              </h2>
+              <p>
+                I should be incapable of drawing a single stroke at the present moment.
+              </p>
+              <a href="#" class="btn btn-common">
+                Learn More
+              </a>
+            </div><!-- Service-Block-1 Item Ends -->
+          </div>
+
+          <div class="col-sm-6 col-md-4 text-center">
+            <!-- Service-Block-1 Item Starts -->
+            <div style="visibility: visible;-webkit-animation-delay: .8s; -moz-animation-delay: .8s; animation-delay: .8s;" class="service-item wow fadeInUpQuick animated animated" data-wow-delay=".8s">
+             <div align="center">
+                <p><img class="img-center img-responsive circle" alt="Image" src="Bootstrap%20Theme%20The%20Band_files/msg.png"></p>
+              </div>
+              <h2>
+                2nd Openion
+              </h2>
+              <p>
+                I should be incapable of drawing a single stroke at the present moment.
+              </p>
+              <a href="#" class="btn btn-common">
+                Learn More
+              </a>
+            </div><!-- Service-Block-1 Item Ends -->
+          </div>
+
+          <div class="col-sm-6 col-md-4 text-center">
+            <!-- Service-Block-1 Item Starts -->
+            <div style="visibility: visible;-webkit-animation-delay: 1.1s; -moz-animation-delay: 1.1s; animation-delay: 1.1s;" class="service-item wow fadeInUpQuick animated animated" data-wow-delay="1.1s">
+              <div align="center">
+                <p><img class="img-center img-responsive circle" alt="Image" src="Bootstrap%20Theme%20The%20Band_files/person.png"></p>
+               </div>
+              <h2>
+                Consult a Doctor
+              </h2>
+              <p>
+                I should be incapable of drawing a single stroke at the present moment.
+              </p>
+              <a href="#" class="btn btn-common">
+                Learn More
+              </a>
+            </div><!-- Service-Block-1 Item Ends -->
+          </div>
+
+         
+        </div>
+      </div><!-- Container Ends -->
+    </section>
+   
+<div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                  <div class="clearfix"></div>
+                    <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
+                    <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+                    <a href="#" class="btn btn-common">
+                Learn More
+              </a>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="Bootstrap%20Theme%20The%20Band_files/2.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                   <div class="clearfix"></div>
+                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
+                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+                    <a href="#" class="btn btn-common">
+                Learn More
+              </a>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="Bootstrap%20Theme%20The%20Band_files/3.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+     <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="Bootstrap%20Theme%20The%20Band_files/4.jpg" alt="New York" height="700" width="1200">
+        <div class="carousel-caption">
+         
+        </div>
+      </div>
+
+      
+    </div>
+
+<!-- Container (TOUR Section) -->
+
+<div id="tour" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">TOUR DATES</h3>
+    <p class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets!</p>
+   
+    
+    <div class="row text-center">
+      <div class="col-sm-3">
+        <div class="thumbnail">
+          <img src="Bootstrap%20Theme%20The%20Band_files/5.jpg" alt="Paris" height="300" width="400">
+          <p><strong>Paris</strong></p>
+          <p>Friday 27 November 2015</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail">
+          <img src="Bootstrap%20Theme%20The%20Band_files/6.jpg" alt="New York" height="300" width="400">
+          <p><strong>New York</strong></p>
+          <p>Saturday 28 November 2015</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail">
+          <img src="Bootstrap%20Theme%20The%20Band_files/7.jpg" alt="San Francisco" height="300" width="400">
+          <p><strong>San Francisco</strong></p>
+          <p>Sunday 29 November 2015</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+        </div>
+      </div>
+       <div class="col-sm-3">
+        <div class="thumbnail">
+          <img src="Bootstrap%20Theme%20The%20Band_files/8.jpg" alt="San Francisco" height="300" width="400">
+          <p><strong>San Francisco</strong></p>
+          <p>Sunday 29 November 2015</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
+              <input class="form-control" id="psw" placeholder="How many?" type="number">
+            </div>
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+              <input class="form-control" id="usrname" placeholder="Enter email" type="text">
+            </div>
+              <button type="submit" class="btn btn-block">Pay
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+          </button>
+          <p>Need <a href="#">help?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row mbr-gallery-row no-gutter">
+<ul id="rig">
+    <li>
+        <a class="rig-cell" href="#">
+            <img class="rig-img" src="Bootstrap%20Theme%20The%20Band_files/10.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Lorem Ipsum Dolor</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="#">
+            <img class="rig-img" src="Bootstrap%20Theme%20The%20Band_files/11.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Consectetur Adipiscing</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="#">
+            <img class="rig-img" src="Bootstrap%20Theme%20The%20Band_files/12.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Vivamus ut Felis</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="#">
+            <img class="rig-img" src="Bootstrap%20Theme%20The%20Band_files/13.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Curabitur tempus</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="#">
+            <img class="rig-img" src="Bootstrap%20Theme%20The%20Band_files/14.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Sed et nunc luctus</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="#">
+            <img class="rig-img" src="Bootstrap%20Theme%20The%20Band_files/15.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Suspendisse tellus</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="#">
+            <img class="rig-img" src="Bootstrap%20Theme%20The%20Band_files/16.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">pellentesque odio</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="#">
+            <img class="rig-img" src="Bootstrap%20Theme%20The%20Band_files/17.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Nam euismod</span>
+        </a>
+    </li>
+   
+  </ul>
+</div>
+<!-- Container (Contact Section) -->
+
+
+<div class="googleMap">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                  <div class="clearfix"></div>
+                    <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
+                    <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="Bootstrap%20Theme%20The%20Band_files/21.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+</div>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="Bootstrap%20Theme%20The%20Band_files/9.jpg" alt="New York" height="700" width="1200">
+        <div class="carousel-caption">
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+<!-- Add Google Maps -->
+<script src="Bootstrap%20Theme%20The%20Band_files/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+
+function initialize() {
+var mapProp = {
+center:myCenter,
+zoom:12,
+scrollwheel:false,
+draggable:false,
+mapTypeId:google.maps.MapTypeId.ROADMAP
+};
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+position:myCenter,
+});
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<!-- Footer -->
+<div class="footer-sec">            <!-- Secondary Footer -->
+      <div class="widget-content">
+      <div class="row">
+<!-- add social media icons to sidebar -->
+<div class="col-lg-6">
+<samp>All Rights Reserved by eHilung</samp>
+</div>
+<div class="col-lg-6">
+<div class="social-media-icons" id="social-icons"><ul class="list-inline banner-social-buttons">
+<li class="media_icon"><a href="https://www.facebook.com/pages/Kodingmadesimple-blog/416122768519525" rel="nofollow" target="_blank"><img alt="Facebook" src="Bootstrap%20Theme%20The%20Band_files/facebook-round.png" title="Follow us on Facebook" border="0" width="48px"></a></li>
+
+<li class="media_icon"><a href="https://twitter.com/kodingmdsimple" rel="nofollow" target="_blank"><img alt="Twitter" src="Bootstrap%20Theme%20The%20Band_files/twitter-round.png" title="Follow us on Twitter" border="0" width="48px"></a></li>
+
+<li class="media_icon"><a href="https://plus.google.com/101336432104771054127" rel="author" target="_blank"><img alt="Google Plus" src="Bootstrap%20Theme%20The%20Band_files/googleplus-round.png" title="Circle us on Google+" border="0" width="48px"></a></li>
+
+<li class="media_icon"><a href="http://feeds.feedburner.com/Kodingmadesimple" rel="nofollow" target="_blank"><img alt="RSS" src="Bootstrap%20Theme%20The%20Band_files/rss-round.png" title="Subscribe to RSS Feed" border="0" width="48px"></a></li>
+
+<li class="media_icon"><a href="https://pinterest.com/kodingmdsimple" rel="nofollow" target="_blank"><img alt="Pinterest" src="Bootstrap%20Theme%20The%20Band_files/pinterest-round.png" title="Pinterest" border="0" width="48px"></a></li>
+</ul></div>
+</div>
+<!-- eoc add social media icons to sidebar -->
+</div>      
+        </div>
+</div>
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip();
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+<script type="text/javascript" src="Bootstrap%20Theme%20The%20Band_files/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#btn").click(function(){
+        $("select").find("option:selected").each(function(){
+            if($(this).attr("value")=="1"){
+                $(".box").not(".red").hide();
+                $(".red").show();
+            }
+            else if($(this).attr("value")=="2"){
+                $(".box").not(".green").hide();
+                $(".green").show();
+            }
+            else if($(this).attr("value")=="3"){
+                $(".box").not(".blue").hide();
+                $(".blue").show();
+            }
+            else{
+                $(".box").hide();
+            }
+        });
+    }).change();
+});
+</script>
+
+
+
+</body></html>

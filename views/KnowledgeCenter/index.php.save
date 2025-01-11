@@ -1,0 +1,401 @@
+
+  <?php
+
+
+session_start();
+
+$title="KnowledgeCenter";
+$activeHeader="knowledge_center";
+$blogurl="http://192.168.1.103/hansinfo_eheilung/wordpress";
+$search=$_GET['search'];
+
+if($_GET['pageNo']=="" || $_GET['pageNo']==0){
+  $pageNo=1;
+}else{
+  $pageNo=$_GET['pageNo'];
+}
+function httpGet($url)
+{
+    $ch = curl_init();  
+ 
+    curl_setopt($ch,CURLOPT_URL,$url);
+    curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
+//  curl_setopt($ch,CURLOPT_HEADER, false); 
+ 
+    $output=curl_exec($ch);
+ 
+    curl_close($ch);
+    return $output;
+}
+ 
+$data = httpGet($blogurl."/?json=1");
+$data = json_decode($data, TRUE);
+/*echo "<pre>";
+print_r($data);
+echo "</pre>";*/
+foreach ($data['posts'] as $key => $value) {
+ /* echo "<pre>";
+print_r($value);
+echo "</pre>";*/
+}
+$recentPost = httpGet($blogurl."/?json=get_recent_posts");
+$recentPost = json_decode($recentPost, TRUE);
+/*echo "<pre>";
+print_r($recentPost);
+echo "</pre>";*/
+
+foreach ($recentPost['posts'] as $key => $value) {
+  //print_r($value);
+}
+
+
+$count=$recentPost['count_total'];
+$recentpost_imagediv1="col-md-12";
+$recentpost_imagediv2="col-md-6";
+$recentpost_imagediv3="col-md-4";
+/*if($recentPost['count_total']==1){
+  $recentpost_imagediv1="col-md-12";
+  $count=1;
+}else if($recentPost['count_total']==2){
+  $count=2;
+  $recentpost_imagediv1="col-md-6";
+}else if($recentPost['count_total']==3){
+  $count=3;
+  $recentpost_imagediv1="col-md-12";
+  $recentpost_imagediv2="col-md-6";
+}else if($recentPost['count_total']==4){
+  $count=4;
+  $recentpost_imagediv1="col-md-6";
+  $recentpost_imagediv2="col-md-6";
+}else if($recentPost['count_total']==5){
+  $count=5;
+  $recentpost_imagediv1="col-md-6";
+  $recentpost_imagediv2="col-md-4";
+}*/
+
+$category = httpGet($blogurl."/?json=get_category_index");
+$category = json_decode($category, TRUE);
+/*echo "<pre>";
+print_r($category);
+echo "</pre>";*/
+
+
+$searchResult = httpGet($blogurl."/?json=get_search_results&search=".$search);
+$searchResult = json_decode($searchResult, TRUE);
+/*echo "<pre>";
+print_r($searchResult);
+echo "</pre>";
+*/
+/*echo "<pre>";
+print_r($_SERVER);
+echo "</pre>";*/
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <?php include_once("../metaInclude.php"); ?>
+  <style type="text/css">
+.OverlayText{
+    bottom: 25%;
+    color: #fff;
+    left: 15%;
+    position: absolute;
+    width: 70%;
+    text-align: center;
+}
+.row{
+}
+.banner{
+    max-height: 300px;
+    min-height: 300px;
+    object-fit: cover;
+    width:100%;
+}
+.wordpress-data{
+  margin-bottom: 30px;
+}
+ .wordpress-data video{
+    max-height: 300px;
+    min-height: 300px;
+    width:100%;
+    object-fit: initial;
+}
+.blogDetail video{
+    width:100%;
+    object-fit: initial;
+}
+.type{
+  color:#ff9900;
+}
+.title{
+  font-weight: 300;
+  margin-top: 0px;
+}
+.OverlayMask
+{
+  background-color: transparent;
+  height:250px;
+}
+.img-overlay{ 
+background-color:#000;
+height:300px;
+margin-top : -300px;
+opacity : 0.3;
+}
+.blogDetail{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.blogDetail h1{
+  letter-spacing: 2px;
+  font-weight: 700;
+  word-spacing: 1px;
+  color: #555;
+  text-align: center;
+  margin-top:40px;
+  margin-bottom:20px;
+}
+.search{
+   margin-bottom: 30px;
+}
+.has-feedback{
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+    font-size: 19px;
+}
+.form-control-feedback{
+  top: 0;
+  color: grey;
+  font-size: 30px;
+  font-weight: 100;
+  padding-right: 10px;
+}
+.blogtype{
+  border-bottom: 1px solid grey;
+  padding:10px 0;
+  font-size:19px;
+}
+.blogtype a{
+  color:#666;
+}
+.category{
+  color:#ff9900;
+  margin-bottom: 40px;
+}
+.bullet{
+  margin-right: 15px;margin-left: 15px;display:inline-block; background-color:#ff9900;border: 1px solid #ff9900;width:10px;height:10px; border-radius: 50%
+}
+.text{
+  margin-top: 30px;
+  font-size: 18px;
+  color: #666;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+.link-more{
+  color:#ff9900!important;
+}
+.paginate a{
+  color: #ddc78b;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.paginate a i:before {
+content: "\2190";
+font-size: 70px;
+margin-top: 20px;
+}
+.paginate .col-md-6{
+  padding:0;
+}
+  </style> 
+
+</head>
+  <body> 
+  <main class="container" style="min-height: 100%;">
+  <?php  include_once("../header.php"); ?> 
+    <section>
+      <!-- main-container-->
+      <div class="main-container">
+        <div class="row">
+            <div class="col-md-12">
+             <?php foreach ($recentPost['posts'] as $key => $value) { 
+              if($key==0){
+              ?>
+               <div class="<?php if($count==1 || $count==3){echo $recentpost_imagediv1;}if($count==2 || $count==5 || $count==4 ){echo $recentpost_imagediv1;}?> wordpress-data">
+               <?php if($value['categories'][0]['title']=='Videos'){?>
+                  <video controls  src="<?php echo $value['attachments'][1]['url'] ;?>"></video>
+               <?php } else{ ?>
+                  <img  class="banner img-responsive"  src="<?php echo $value['thumbnail_images']['full']['url'] ;?>">
+                <!-- <img  class="banner img-responsive"  src="<?php echo $value['thumbnail_images']['full']['url'] ;?>"> -->
+                <div class="img-overlay"></div>
+                <?php } ?>
+                <div class="OverlayText">
+                  <div class="col-md-12">
+                    <h4 class="type"><?php echo $value['categories'][0]['title'] ;?></h4>
+                  </div>
+                  <div class="col-md-12">
+                    <h2 class="title"><?php echo $value['title'] ;?></h2>
+                  </div>
+                </div>
+              </div>
+             <?php }if($key==1){ ?>
+              <div class="<?php if($count==2 || $count==3 || $count==4 || $count==5 ){echo $recentpost_imagediv2;}?> wordpress-data">
+                <?php if($value['categories'][0]['title']=='Videos'){?>
+                  <video controls src="<?php echo $value['attachments'][1]['url'] ;?>"></video>
+               <?php } else{ ?>
+                  <img  class="banner img-responsive"  src="<?php echo $value['thumbnail_images']['full']['url'] ;?>">
+                <div class="img-overlay"></div>
+                <?php } ?>
+                <div class="OverlayText">
+                  <div class="col-md-12">
+                    <h4 class="type"><?php echo $value['categories'][0]['title'] ;?></h4>
+                  </div>
+                  <div class="col-md-12">
+                    <h2 class="title"><?php echo $value['title'] ;?></h2>
+                  </div>
+                </div>
+              </div>
+               <?php }if(($key>=2 && $key<=4)){ ?>
+              <div class="<?php if($count==3 || $count==4){echo $recentpost_imagediv2;}if($count==5){echo $recentpost_imagediv3;}?> wordpress-data">
+              <?php if($value['categories'][0]['title']=='Videos'){?>
+                  <video controls src="<?php echo $value['attachments'][1]['url'] ;?>"></video>
+               <?php } else{ ?>
+                  <img  class="banner img-responsive"  src="<?php echo $value['thumbnail_images']['full']['url'] ;?>">
+                <div class="img-overlay"></div>
+               <?php } ?>
+                <div class="OverlayText">
+                  <div class="col-md-12">
+                    <h4 class="type"><?php echo $value['categories'][0]['title'] ;?></h4>
+                  </div>
+                  <div class="col-md-12">
+                    <h2 class="title"><?php echo $value['title'] ;?></h2>
+                  </div>
+                </div>
+              </div>
+               <?php } }?>
+            </div>
+          </div>
+          <div class="row blogDetail">
+            <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
+              <div class="col-md-8 col-sm-8 col-xs-12">
+                <?php
+              if(isset($search) && !empty($search)){
+                  if($searchResult['count_total']!=0){
+                foreach ($searchResult['posts'] as $key => $value) {
+                $noOfPostInPage=5; 
+                $j=($pageNo-1)*$noOfPostInPage;
+                for($i=$j;$i<($j+$noOfPostInPage);$i++){
+                    if($key==$i){ ?>
+                      <div class="col-md-12">
+                        <?php if($value['categories'][0]['title']=='Videos'){?>
+                          <video controls src="<?php echo $value['attachments'][1]['url'] ;?>"></video>
+                        <?php } else{ ?>
+                          <img  class="img-responsive"  src="<?php echo $value['thumbnail_images']['full']['url'] ;?>">
+                        <?php } ?>
+                      </div>
+                      <div class="col-md-12">
+                        <h1><?php echo $value['title'] ;?></h1>
+                      </div>
+                      <div class="col-md-12 text-center">
+                        <li style="display:inline-block;color:#ddd;"><?php echo date("F j, Y", strtotime($value['date']));?></li><li class="bullet" style=""></li><!-- <li style="display:inline-block;color:#ddd;">3 comments</li><li class="bullet" style="display:inline-block;color:#ddd;"> </li>--><li style="display:inline-block;color:#ddd;"><?php echo $value['categories'][0]['title'] ;?></li>
+                      </div>
+                      <div class="col-md-12 text" style="margin-bottom: 15%;">
+                       <p class=""><?php echo $value['excerpt'];?></p>
+                      </div>
+                <?php }}}}else{?>
+                      <div class="col-md-12" style="margin-top: 5%;margin-bottom: 20%;"><h1>No matched data found!</h1></div>
+                <?php }} else{
+               foreach ($data['posts'] as $key => $value) {
+                $noOfPostInPage=5; 
+                $j=($pageNo-1)*$noOfPostInPage;
+                for($i=$j;$i<($j+$noOfPostInPage);$i++){
+                    if($key==$i){ ?>
+                      <div class="col-md-12">
+                        <?php if($value['categories'][0]['title']=='Videos'){?>
+                          <video controls src="<?php echo $value['attachments'][1]['url'] ;?>"></video>
+                        <?php } else{ ?>
+                          <img  class="img-responsive"  src="<?php echo $value['thumbnail_images']['full']['url'] ;?>">
+                        <?php } ?>
+                      </div>
+                      <div class="col-md-12">
+                        <h1><?php echo $value['title'] ;?></h1>
+                      </div>
+                      <div class="col-md-12 text-center">
+                        <li style="display:inline-block;color:#ddd;"><?php echo date("F j, Y", strtotime($value['date']));?></li><li class="bullet" style=""></li><!-- <li style="display:inline-block;color:#ddd;">3 comments</li><li class="bullet" style="display:inline-block;color:#ddd;"> </li>--><li style="display:inline-block;color:#ddd;"><?php echo $value['categories'][0]['title'] ;?></li>
+                      </div>
+                      <div class="col-md-12 text" style="margin-bottom: 15%;">
+                       <p class=""><?php echo $value['excerpt'];?></p>
+                      </div>
+                <?php }}}}?>
+                <div class="col-md-12 paginate">
+                   <div class="col-md-6 text-left"><a href="index.php?pageNo=<?php if($pageNo==1){echo $pageNo;}else{echo $pageNo-1;}?>"><img src="../../assets/images/leftarrow.png"  style="padding-right: 10px;" />Older posts</a></div>
+                   <div class="col-md-6 text-right" ><a href="index.php?pageNo=<?php if($pageNo==$data['count_total']){echo $pageNo;}else{echo $pageNo+1;}?>">Newest posts<img src="../../assets/images/rightarrow.png" style="padding-left: 10px;" /></a></div>
+                </div> 
+              </div>
+              
+              <div class="col-md-4 col-sm-4 col-xs-12" >
+                <div class="col-md-12 search">
+                  <form action="" class="search-form">
+                      <div class="form-group has-feedback">
+                      <label for="search" class="sr-only">Search for something</label>
+                      <input type="text" class="" name="search" id="search" placeholder="Search for something" style="border:0;outline:0;">
+                        <span class="form-control-feedback"><p class="glyphicon glyphicon-search" aria-hidden="true"></p></span>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-md-12">
+                  <h3 class="category text-center" >CATEGORIES</h3>
+                  <ul style="list-style-type: none;padding-left: 0px;">
+                  <?php foreach ($category['categories'] as $key => $value) { 
+                    $category=$value['title'];
+                   ?>
+                    <li class="blogtype"><a href="article.php?category=<?php echo $category ;?>"><?php echo $value['title'];?><span style="float: right;"><?php echo $value['post_count'];?></span></a></li><!-- 
+                    <li class="blogtype">Videos<span style="float: right;">5</span></li>
+                    <li class="blogtype">Presentations<span style="float: right;">2</span></li
+                    <li class="blogtype">Webinars<span style="float: right;">0</span></li> -->
+                    <?php } ?>
+                  </ul>
+                </div>
+              </div>
+            </div>  
+          </div>
+          
+      <!-- main-container-->
+    </section>
+  </main> 
+  <?php include('../footer.php'); ?>
+  <!-- footer-->
+  <script type="text/javascript">
+  /*$('#search').keyup(function(){
+    filterorder();
+  });*/
+  $('.search-form').submit(function(e){
+    var QUERY_STRING="<?php echo $_SERVER['QUERY_STRING'];?>"
+    var keyword=$("#search").val();
+    //alert(search);
+    var res = QUERY_STRING.split('search',1)[0];
+    var res = res.split('&',1)[0];
+    //alert(res);
+    if(QUERY_STRING=="")
+    {
+      var search='?search='+keyword;
+    }
+    else
+    {
+      if(res!=""){
+        var search='?'+res+'&search='+keyword;
+      }
+      else{
+        var search='?search='+keyword;
+      }
+    }
+
+    location.href="<?php echo $_SERVER['PHP_SELF'];?>"+search;
+    e.preventDefault();
+    
+  });
+  </script>
+  </body>
+  </html>

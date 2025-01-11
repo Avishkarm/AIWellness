@@ -1,0 +1,2 @@
+[09-Jul-2015 06:28:44 CST6CDT] PHP Fatal error:  Call to undefined function getAllRemedies() in /home/hansinfo/public_html/kes/controllers/admin/remediescrud/list.php on line 29
+[09-Jul-2015 06:28:57 CST6CDT] PHP Fatal error:  Call to undefined function getAllRemedies() in /home/hansinfo/public_html/kes/controllers/admin/remediescrud/list.php on line 29

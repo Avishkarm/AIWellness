@@ -1,0 +1,54 @@
+[data-module="Tokens"] {
+  display: inline-block;
+  position: relative;
+}
+
+.token {
+  overflow: hidden;
+  height: auto;
+  margin: 3px 0 3px 3px;
+  padding: 1px 3px;
+  background: #989898;
+  cursor: default;
+  border-radius: 3px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.token p {
+  margin: 0;
+}
+
+.token p,
+.token .token-delete {
+  display: inline;
+  padding: 0;
+}
+
+.token .token-delete {
+  cursor: pointer;
+  margin: 0 2px 0 5px;
+  font-weight: bold;
+}
+
+[data-module="Tokens"] [data-name="resultsContainer"] {
+  background: white;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+}
+
+[data-module="Tokens"] [data-name="resultsContainer"] ul {
+  margin: 0;
+  padding: 0;
+}
+
+[data-module="Tokens"] [data-name="resultsContainer"] ul li {
+  cursor: pointer;
+  padding: 5px;
+}
+
+[data-module="Tokens"] [data-name="resultsContainer"] ul li:hover,
+[data-module="Tokens"] [data-name="resultsContainer"] ul li.selected {
+  background-color: #ccc;
+}

@@ -1,0 +1,106 @@
+[24-Mar-2017 18:13:04 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required 'smtp/mailgun-php/vendor/autoload.php' (include_path='.:/usr/local/php56/pear') in /home/hansinfo/public_html/staging/eheilung/controllers/notification.php on line 11
+[26-Apr-2017 22:24:45 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required '../models/loginModal.php' (include_path='.:/usr/local/php56/pear') in /home/hansinfo/public_html/staging/eheilung/controllers/register.php on line 5
+[26-Apr-2017 22:25:02 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required 'smtp/mailgun-php/vendor/autoload.php' (include_path='.:/usr/local/php56/pear') in /home/hansinfo/public_html/staging/eheilung/controllers/notification.php on line 11
+[26-Apr-2017 22:25:10 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required '../models/loginModal.php' (include_path='.:/usr/local/php56/pear') in /home/hansinfo/public_html/staging/eheilung/controllers/resetpassword.php on line 6
+[26-Apr-2017 22:25:37 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required 'utilities.php' (include_path='.:/usr/local/php56/pear') in /home/hansinfo/public_html/staging/eheilung/controllers/forgot_password.php on line 4
+[26-Apr-2017 22:25:45 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required '../models/loginModal.php' (include_path='.:/usr/local/php56/pear') in /home/hansinfo/public_html/staging/eheilung/controllers/register_doctor.php on line 6
+[26-Apr-2017 22:25:54 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required '../models/loginModal.php' (include_path='.:/usr/local/php56/pear') in /home/hansinfo/public_html/staging/eheilung/controllers/resendActivation.php on line 7
+[28-Apr-2017 22:06:58 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required '../models/loginModal.php' (include_path='.:/usr/local/php56/pear') in /home/hansinfo/public_html/staging/eheilung/controllers/register.php on line 5
+[29-Apr-2017 01:15:59 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required 'smtp/mailgun-php/vendor/autoload.php' (include_path='.:/usr/local/php56/pear') in /home/hansinfo/public_html/staging/eheilung/controllers/notification.php on line 11
+[29-Apr-2017 01:16:58 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required '../models/loginModal.php' (include_path='.:/usr/local/php56/pear') in /home/hansinfo/public_html/staging/eheilung/controllers/resetpassword.php on line 6
+[29-Apr-2017 01:20:27 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required 'utilities.php' (include_path='.:/usr/local/php56/pear') in /home/hansinfo/public_html/staging/eheilung/controllers/forgot_password.php on line 4
+[29-Apr-2017 01:23:36 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required '../models/loginModal.php' (include_path='.:/usr/local/php56/pear') in /home/hansinfo/public_html/staging/eheilung/controllers/register_doctor.php on line 6
+[29-Apr-2017 02:39:23 Asia/Kolkata] PHP Fatal error:  require_once(): Failed opening required '../models/loginModal.php' (include_path='.:/usr/local/php56/pear') in /home/hansinfo/public_html/staging/eheilung/controllers/resendActivation.php on line 7
+[14-Aug-2017 09:13:19 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:20 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:23 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:23 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:32 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:32 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:32 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:33 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:35 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:35 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:35 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:35 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:37 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:38 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:39 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:39 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:40 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:43 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:43 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:43 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:43 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:46 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:46 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:46 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:46 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:48 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:49 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:49 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:49 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:49 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:49 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:51 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:51 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:51 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:52 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:52 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:53 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:53 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:53 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:53 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:54 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:55 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:58 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:59 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:59 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:59 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:13:59 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:01 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:03 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:04 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:04 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:05 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:05 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:05 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:07 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:07 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:10 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:10 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:10 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:10 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:10 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:11 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:14 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:15 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:16 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:16 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:16 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:16 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:18 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:19 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:19 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:19 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:20 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:20 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:22 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:23 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:39 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:39 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:39 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:40 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:40 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:42 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:43 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:43 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:43 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:44 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:45 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:47 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:47 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:47 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:51 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:14:52 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40
+[14-Aug-2017 09:15:03 CST6CDT] PHP Parse error:  syntax error, unexpected 'DOMAIN_NAME' (T_STRING) in /home/hansinfo/public_html/staging/eheilung_web/utilities/config.php on line 40

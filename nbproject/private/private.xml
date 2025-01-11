@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="19">
+        <file>
+            <url>views/dashboard/doctorsDashboard.php</url>
+            <bookmark id="15">
+                <name/>
+                <line>354</line>
+                <key/>
+            </bookmark>
+            <bookmark id="13">
+                <name/>
+                <line>761</line>
+                <key/>
+            </bookmark>
+            <bookmark id="16">
+                <name/>
+                <line>819</line>
+                <key/>
+            </bookmark>
+            <bookmark id="18">
+                <name/>
+                <line>1241</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>views/2opinion/modern.php</url>
+            <bookmark id="6">
+                <name/>
+                <line>753</line>
+                <key/>
+            </bookmark>
+            <bookmark id="4">
+                <name/>
+                <line>754</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>views/2opinion/index.php</url>
+            <bookmark id="11">
+                <name/>
+                <line>44</line>
+                <key/>
+            </bookmark>
+            <bookmark id="10">
+                <name/>
+                <line>285</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>views/2opinion/conclusion.php</url>
+            <bookmark id="12">
+                <name/>
+                <line>147</line>
+                <key/>
+            </bookmark>
+            <bookmark id="17">
+                <name/>
+                <line>373</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>index.php</url>
+            <bookmark id="8">
+                <name/>
+                <line>1183</line>
+                <key/>
+            </bookmark>
+            <bookmark id="3">
+                <name/>
+                <line>1185</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>views/patient/manage_patient.php</url>
+            <bookmark id="9">
+                <name/>
+                <line>1573</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>models/remediesModel.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>172</line>
+                <key/>
+            </bookmark>
+            <bookmark id="2">
+                <name/>
+                <line>189</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>controllers/managePatientController.php</url>
+            <bookmark id="19">
+                <name/>
+                <line>205</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/gctlab/www/html/eheilung/views/patient/manage_patient.php</file>
+            <file>file:/home/gctlab/www/html/eheilung/views/stress_calculator/stress_calculator.php</file>
+            <file>file:/home/gctlab/www/html/eheilung/views/stress_calculator/stress_test.php</file>
+            <file>file:/home/gctlab/www/html/eheilung/controllers/stressCausationsController.php</file>
+            <file>file:/home/gctlab/www/html/eheilung/controllers/managePatientController.php</file>
+        </group>
+    </open-files>
+</project-private>
